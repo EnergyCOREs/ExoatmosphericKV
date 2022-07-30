@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 68f65e8630c7cf5418a8720d49d8b387
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 6072364172226014548
+    second: Cube.008|Cube.008Action
+  - first:
+      74: -2993339041312084149
+    second: Cube.008|Cube.009Action
+  - first:
+      74: -1834647542889229022
+    second: Cube.008|Cube.010Action
+  - first:
+      74: 906792807549755197
+    second: Cube.008|Cube.011Action
+  - first:
+      74: -316733974795855405
+    second: Cube.008|Cube.012Action
+  - first:
+      74: -2802051455654644960
+    second: Cube.008|Cube.013Action
+  - first:
+      74: -3780777928013146523
+    second: Cube.009|Cube.008Action
+  - first:
+      74: -8412717499102621030
+    second: Cube.009|Cube.009Action
+  - first:
+      74: -5798941155191133457
+    second: Cube.009|Cube.010Action
+  - first:
+      74: 6285063628275794015
+    second: Cube.009|Cube.011Action
+  - first:
+      74: 7531620679029675347
+    second: Cube.009|Cube.012Action
+  - first:
+      74: -73386028986762863
+    second: Cube.009|Cube.013Action
+  - first:
+      74: -8651183811158863412
+    second: Cube.010|Cube.008Action
+  - first:
+      74: 5612306459879158894
+    second: Cube.010|Cube.009Action
+  - first:
+      74: -6863646084104933846
+    second: Cube.010|Cube.010Action
+  - first:
+      74: -3693169569853227885
+    second: Cube.010|Cube.011Action
+  - first:
+      74: 6602711258716579495
+    second: Cube.010|Cube.012Action
+  - first:
+      74: 3322104247555244326
+    second: Cube.010|Cube.013Action
+  - first:
+      74: 3102953771289919067
+    second: Cube.011|Cube.008Action
+  - first:
+      74: 2979318775542679407
+    second: Cube.011|Cube.009Action
+  - first:
+      74: -1677700450880497153
+    second: Cube.011|Cube.010Action
+  - first:
+      74: -4869403039331326923
+    second: Cube.011|Cube.011Action
+  - first:
+      74: -2515303910961069769
+    second: Cube.011|Cube.012Action
+  - first:
+      74: 8088416057040765899
+    second: Cube.011|Cube.013Action
+  - first:
+      74: 5273689508509650201
+    second: Cube.012|Cube.008Action
+  - first:
+      74: -7180781069723076074
+    second: Cube.012|Cube.009Action
+  - first:
+      74: -4734015835981982612
+    second: Cube.012|Cube.010Action
+  - first:
+      74: 7957889157190364108
+    second: Cube.012|Cube.011Action
+  - first:
+      74: 4795700235541847013
+    second: Cube.012|Cube.012Action
+  - first:
+      74: 8210857780264285567
+    second: Cube.012|Cube.013Action
+  - first:
+      74: -6570428016461840747
+    second: Cube.013|Cube.008Action
+  - first:
+      74: 6614578237119176762
+    second: Cube.013|Cube.009Action
+  - first:
+      74: 3930086374257431523
+    second: Cube.013|Cube.010Action
+  - first:
+      74: -4310747878192762992
+    second: Cube.013|Cube.011Action
+  - first:
+      74: 6004671705734190790
+    second: Cube.013|Cube.012Action
+  - first:
+      74: 4287179037922127428
+    second: Cube.013|Cube.013Action
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
