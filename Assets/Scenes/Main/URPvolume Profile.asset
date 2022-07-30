@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Bloom
   m_EditorClassIdentifier: 
   active: 1
+  <displayName>k__BackingField: 
   threshold:
     m_OverrideState: 1
     m_Value: 1.77
@@ -27,7 +28,11 @@ MonoBehaviour:
     m_Value: 65472
   tint:
     m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
   highQualityFiltering:
     m_OverrideState: 0
     m_Value: 0
@@ -53,6 +58,7 @@ MonoBehaviour:
   m_Name: ColorAdjustments
   m_EditorClassIdentifier: 
   active: 1
+  <displayName>k__BackingField: 
   postExposure:
     m_OverrideState: 1
     m_Value: 1.6
@@ -61,7 +67,11 @@ MonoBehaviour:
     m_Value: -14
   colorFilter:
     m_OverrideState: 0
-    m_Value: {r: 0.023153365, g: 0.023153365, b: 0.023153365, a: 1}
+    m_Value:
+      r: 0.023153365
+      g: 0.023153365
+      b: 0.023153365
+      a: 1
   hueShift:
     m_OverrideState: 0
     m_Value: 0
@@ -81,15 +91,24 @@ MonoBehaviour:
   m_Name: SplitToning
   m_EditorClassIdentifier: 
   active: 1
+  <displayName>k__BackingField: 
   shadows:
-    m_OverrideState: 0
-    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    m_OverrideState: 1
+    m_Value:
+      r: 0.103773594
+      g: 0.103773594
+      b: 0.103773594
+      a: 1
   highlights:
-    m_OverrideState: 0
-    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    m_OverrideState: 1
+    m_Value:
+      r: 0.7924528
+      g: 0.7924528
+      b: 0.7924528
+      a: 1
   balance:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: -10
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,7 +121,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
   m_Name: URPvolume Profile
   m_EditorClassIdentifier: 
-  components:
-  - {fileID: -4918006218419946563}
-  - {fileID: -4667024114815381465}
-  - {fileID: -2102931478022690005}
+  components: []
