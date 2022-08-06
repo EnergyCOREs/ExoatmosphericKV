@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public interface I_EKV_Body
+public interface IDamageble
 {
+    public float Health { get; set; }
 
-}
+    public void TakeDamage();
 
-public interface I_EKV_Engine
-{
-    public void Pulse(float force);
-    public void Init(Rigidbody affectedBody);
+    public enum DamageType
+    {
+        Bullet = 0,
+        Electromagnetic,
+        PhysicImpact,
+        Overload
+    }
 }

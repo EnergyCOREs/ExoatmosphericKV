@@ -28,8 +28,7 @@ public class PointTriggerAuto : PointTriggerBase
         if (_timer <= 0)
         {
             _timer = _delay;
-            _TriggerOut.Invoke();
-            Debug.Log("`12`12`12");
+            _TriggerOut?.Invoke();
         }
     }
 

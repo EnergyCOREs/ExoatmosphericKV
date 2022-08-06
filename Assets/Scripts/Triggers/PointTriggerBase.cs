@@ -8,6 +8,13 @@ public interface IPointTrigger
     public void Deactivate();
     public void Toggle();
     public bool GetState();
+
+    public enum TriggerOption
+    {
+        Activate = 0,
+        Deactivate,
+        Toggle
+    }
 }
 
 
