@@ -8,6 +8,8 @@ public abstract class EKV_Engine : MonoBehaviour
     private Rigidbody _affectedBody;
     private Transform _transform;
 
+    private Vector3 _forward;
+
     private void Awake()
     {
         _transform = GetComponent<Transform>();
@@ -15,7 +17,7 @@ public abstract class EKV_Engine : MonoBehaviour
 
     public virtual void Pulse(float force)
     {
-        var _forward = _transform.TransformDirection(Vector3.forward);
+        _forward = _transform.TransformDirection(Vector3.back);
         _affectedBody.AddForceAtPosition(_forward * force, _transform.position, ForceMode.Impulse);
     }
 

@@ -16,10 +16,6 @@ public class EKV_Camera : MonoBehaviour
 
     private float _vericalAngle = 0;
 
-    public void Construct()
-    {
-
-    }
 
     void Update()
     {
@@ -28,8 +24,9 @@ public class EKV_Camera : MonoBehaviour
 
         _cameraRigPivot.position = Vector3.Lerp(_cameraRigPivot.position, _target.position, Time.deltaTime * 7f);
         _cameraRigPivot.rotation = Quaternion.Euler(new Vector3(0, controller.GetYaw(), 0));
-        _vericalAngle = Mathf.Clamp(_vericalAngle - Input.GetAxis("Mouse Y"), -20f, 45f);
-        _cameraRigHead.localRotation = Quaternion.Euler(_vericalAngle ,0, 0);
+        _vericalAngle = Mathf.Clamp(_vericalAngle - Input.GetAxis("Mouse Y") * 1.4f, -20f, 45f); // fix
+        _cameraRigHead.localRotation = Quaternion.Euler(_vericalAngle / 8f, 0, 0);
+        _cameraRigPivot.Rotate(Vector3.right, _vericalAngle);
     }
 
     public Transform GetCameraTransform()

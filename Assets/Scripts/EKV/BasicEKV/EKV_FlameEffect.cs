@@ -35,7 +35,7 @@ public class EKV_FlameEffect : MonoBehaviour
         _flameBillboard.RotateToCamera();
 
         _renderer.enabled = true;
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.005f);
         yield return new WaitForEndOfFrame();
         _renderer.enabled = false;
     }
