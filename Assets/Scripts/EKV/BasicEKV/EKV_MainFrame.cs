@@ -34,7 +34,6 @@ public class EKV_MainFrame : MonoBehaviour
         _transform = GetComponent<Transform>();
         _rigidbody = GetComponent<Rigidbody>();
 
-        _meshPositionSmoother.Init(_transform.position);
 
         InitEngines();
         PossessByController(_controller);
@@ -67,7 +66,6 @@ public class EKV_MainFrame : MonoBehaviour
     {
         _rigidbody.MovePosition(_rigidbody.position);
 
-        _meshRig.position = _meshPositionSmoother.GetNewPosition(_transform.position);
 
         foreach (var engine in _enginesArrayDown)
         {
